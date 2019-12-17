@@ -1,0 +1,61 @@
+{
+    "name": "vant-typescript-snippets",
+    "displayName": "Vant Typescript Snippets",
+    "version": "1.0.0",
+    "publisher": "sands",
+    "author": {
+      "name": "sands"
+    },
+    "categories": [
+      "Snippets"
+    ],
+    "description": "Vant Typescript Snippets for VS Code",
+    "icon": "images/logo.png",
+    "keywords": [
+      "vant ts",
+      "vant typescript",
+      "vant typescript snippets",
+      "vant",
+      "vue",
+      "snippets"
+    ],
+    "galleryBanner": {
+      "color": "#549BFF",
+      "theme": "dark"
+    },
+    "activationEvents": [
+      "onLanguage:vuejs"
+    ],
+    "engines": {
+      "vscode": "^1.0.0"
+    },
+    "main": "./out/extension",
+    "devDependencies": {
+      "vscode": "1.40.x"
+    },
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/sandsli/vant-typescript-snippets"
+    },
+    "contributes": {
+      "snippets": [
+        {
+          "language": "javascript",
+          "path": "./vant-ui.json"
+        },
+        {
+          "language": "html",
+          "path": "./vant-ui.json"
+        },
+        {
+          "language": "vue",
+          "path": "./vant-ui.json"
+        },
+        {
+          "language": "vue-html",
+          "path": "./vant-ui.json"
+        }
+      ]
+    }
+  }
