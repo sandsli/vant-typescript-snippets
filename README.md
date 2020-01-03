@@ -49,9 +49,10 @@ export default class 组件名 extends Vue {
 |  3.   |     `vanrf`      | `<van-row type="flex">` |
 |  4.   |      `vanb`      | `<van-button>`          |
 |  5.   |    `vancell`     | `<van-cell>`            |
-|  6.   |    `vanicon`     | `<van-icon>`            |
-|  7.   |     `vanimg`     | `<van-image>`           |
-|  8.   |    `vanpopup`    | `<van-popup>`           |
+|  6.   |    `vancellgroup`| `<van-cell-group>`      |
+|  7.   |    `vanicon`     | `<van-icon>`            |
+|  8.   |     `vanimg`     | `<van-image>`           |
+|  9.   |    `vanpopup`    | `<van-popup>`           |
 
 
 #### Form Part
