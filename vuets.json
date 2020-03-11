@@ -1,0 +1,27 @@
+{
+    "Basic: vant typescript template": {
+        "prefix": "vants",
+        "body": [
+            "<template>",
+            "\t<div>",
+            "\t</div>",
+            "</template>",
+            "\r<script lang=\"ts\">",
+            "import { Component, Vue, Prop, Watch } from 'vue-property-decorator';",
+            "\r",
+            "@Component({",
+            "\t name: '${1}',",
+            "\t components: {}",
+            "})",
+            "export default class ${1} extends Vue {",
+            "\t mouted() {",
+            "",
+            "\t }",
+            "}",
+            "</script>",
+            "\r<style lang=\"scss\" scoped>",
+            "</style>"
+        ],
+        "description": "vant typescript template"
+    },
+}
